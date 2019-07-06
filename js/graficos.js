@@ -1,4 +1,4 @@
-
+function regis() {
     registrar(html5, 0.8, '#ffa500')
     registrar(css3, 0.7, '#0FC8FF');
     registrar(javascript, 0.7, '#ffff00');
@@ -7,10 +7,8 @@
     registrar(mysql, 0.9, '#C047A2');
     registrar(word, 0.75, '#32373B');
     registrar(c, 0.8, '#3a08ff');
-        
 
-
-
+}
 
 function registrar(ss, se,cr) {
     var bar = new ProgressBar.SemiCircle(ss, {
