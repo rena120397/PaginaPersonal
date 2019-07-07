@@ -7,7 +7,6 @@ function regis() {
     registrar(mysql, 0.9, '#C047A2');
     registrar(word, 0.75, '#32373B');
     registrar(c, 0.8, '#3a08ff');
-
 }
 
 function registrar(ss, se,cr) {

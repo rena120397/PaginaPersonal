@@ -204,6 +204,12 @@
                             <div class="valid-feedback">Valido</div>
                             <div class="invalid-feedback">Por favor llene este campo</div>
                         </div>
+                        <div class="form-group">
+                            <label for="Textarea1">Example textarea</label>
+                            <textarea class="form-control" id="Textarea1" rows="3" required placeholder="Ingrese una descripción"></textarea>
+                            <div class="valid-feedback">Valido</div>
+                            <div class="invalid-feedback">Por favor llene este campo</div>
+                        </div>
                         <div class="posi-derecha">
                             <button type="submit" class="btn btn-outline-warning">Enviar</button>
                         </div>
@@ -214,7 +220,7 @@
 
                         <iframe class="bor"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3902.6540572710487!2d-77.08232528514898!3d-11.998422344269928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105ce8aa9b26e0d%3A0x68fd2b9a68be34c7!2sHuarmey+1369%2C+Cercado+de+Lima+15302!5e0!3m2!1ses!2spe!4v1562378266008!5m2!1ses!2spe"
-                            width="100%" height="620" frameborder="0" style="border:0" allowfullscreen></iframe>
+                            width="100%" height="750" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
                 
@@ -288,7 +294,7 @@
         $(window).ready(function () {
                     $(document).one('scroll',regis);
                     $("#gra").slideUp( 300 ).delay( 1000 ).fadeIn( 400 );
-            });s
+            });
     </script>
 </body>
 </html>
