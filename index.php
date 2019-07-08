@@ -1,28 +1,7 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href=" img/skapir.png" />
-    <title>Renato Chevarria | Desarrollador de paginas web</title>
-    <link rel="stylesheet" href="estilos/normalize.css">
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">   
-    <link rel="stylesheet" href="estilos/principal.css">
-    <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Carter+One|Herr+Von+Muellerhoff|Lobster+Two|Pacifico&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Orienta|Palanquin+Dark&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Acme|Pacifico&display=swap" rel="stylesheet">
-    <meta name="Description"
-        content="Renato Chevarria, el mejor sitio de creación de páginas web y aplicaciones web, aumenta tu productividad y organiza tu empresa con productos de software hechos por un emprendedor para emprededores" />
-    <meta name="Author" content="Renato Chevarria">
-    <meta name="Subject" content="Renato Chevarria, el mejor sitio de creación de páginas web y aplicaciones web">
-    <meta name="Distribution" content="global" />
-    <meta name="Keywords"
-        content="Renato Chevarria, Paginas Web, Aplicaciones Web, Tiendas Virtuales" />
-</head>
-<body id="Inicio">
+<?php
+        require_once 'view/header.php';      
+?>
+    <body id="Inicio">
     <div id="particleWrapper">
         <header>
             <nav id="menu" class="navbar navbar-expand-md  navbar-dark fixed-top f20 ">
@@ -185,28 +164,29 @@
                     <h2 class="text-center pprotitle"> Contacto <i class="fas fa-file-signature pprotitle"></i></h2>
                     <br>
                     <p class="font-weight-bold text-center">Enviame tus datos y te respondare en la brevedad</p>
-                    <form action="/action_page.php" class="was-validated">
+                    <form action="red.php?c=Contacto&a=Guardar" method="post" class="was-validated">
+                        <input type="hidden" name="id" />
                         <div class="form-group">
                             <label for="uname">Nombre</label>
-                            <input type="text" class="form-control" id="uname" placeholder="Ingrese su nombre" name="uname" required>
+                            <input name="nombre" type="text" class="form-control" id="uname" placeholder="Ingrese su nombre"  required>
                             <div class="valid-feedback">Valido</div>
                             <div class="invalid-feedback">Por favor llene este campo</div>
                         </div>
                         <div class="form-group">
                             <label for="correo">Correo</label>
-                            <input type="email" class="form-control" id="correo" placeholder="Ingrese su correo" name="pswd" required>
+                            <input name="correo" type="email" class="form-control" id="correo" placeholder="Ingrese su correo" required>
                             <div class="valid-feedback">Valido</div>
                             <div class="invalid-feedback">Por favor llene este campo</div>
                         </div>
                         <div class="form-group">
                             <label for="tel">Telefono</label>
-                            <input type="number" class="form-control" id="tel" placeholder="Ingrese su telefono" name="pswd" required>
+                            <input name="telefono" type="number" class="form-control" id="tel" placeholder="Ingrese su telefono"  required>
                             <div class="valid-feedback">Valido</div>
                             <div class="invalid-feedback">Por favor llene este campo</div>
                         </div>
                         <div class="form-group">
                             <label for="Textarea1">Example textarea</label>
-                            <textarea class="form-control" id="Textarea1" rows="3" required placeholder="Ingrese una descripción"></textarea>
+                            <textarea name="texto" class="form-control" id="Textarea1" rows="3" required placeholder="Ingrese una descripción"></textarea>
                             <div class="valid-feedback">Valido</div>
                             <div class="invalid-feedback">Por favor llene este campo</div>
                         </div>
@@ -254,47 +234,7 @@
             </li>
         </ul>
     </div>
+<?php
+    require_once 'view/footer.php';
+?>
 
-    <footer>
-        <div class="container">
-            <p>Copyright® Ronald Renato Chevarria Camargo Developer</p>
-        </div>
-    </footer>
-    
-    <script src="https://kit.fontawesome.com/9d30948654.js"></script>
-    <script src="js/progressbar.min.js"></script>
-    <script src="js/graficos.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/particulas.js"></script>
-    <!-- Popper JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script type="text/javascript">
-
-                    $('a').click(function (e) {
-                     //   e.preventDefault();		//evitar el eventos del enlace normal
-                    var strAncla = $(this).attr('href'); //id del ancla
-                    var head=$('header').height;
-                $('body,html').stop(true, true).animate({
-                        scrollTop: $(strAncla).offset().top - 100
-                }, 1500);
-            });
-
-         $(window).scroll(function () {
-             if($("#menu").offset().top > 1){
-                        $("#menu").addClass("bg-dark navbar-dark img ");
-                    }else{
-                        $("#menu").removeClass("bg-dark navbar-light img");
-                    }
-                   });
-
-        $(window).ready(function () {
-                    $(document).one('scroll',regis);
-                    $("#gra").slideUp( 300 ).delay( 1000 ).fadeIn( 400 );
-            });
-    </script>
-</body>
-</html>
