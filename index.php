@@ -211,24 +211,16 @@
     <div class="sticky-container">
         <ul class="sticky">
             <li>
-                <img src="imagenes/fb.png" width="32" height="32">
-                <p><a href="https://www.facebook.com/ronaldrenato.chevarriacamargo" target="_blank">Sigueme en<br>Facebook</a></p>
+                <img src="imagenes/wsp.png" width="32" height="32" alt="WhastApp">
+                <p><a href="https://wa.me/51951369456?text=Hola,%20quisiera%20información%20sobre%20tus%20servicios%20de%20desarrollo" target="_blank" class="as">Subscribe on<br>whatsApp</a></p>
             </li>
             <li>
-                <img src="imagenes/gmail.png" width="32" height="32">
-                <p><a href="https://plus.google.com/programacionnet" target="_blank">Sigueme on<br>Google+</a></p>
-            </li>
-            <li>
-                <img src="imagenes/link.png" width="32" height="32">
+                <img src="imagenes/link.png" width="32" height="32" alt="Linkedin">
                 <p><a href="https://www.linkedin.com/in/ronald-renato-chevarría-camargo-a09837132" target="_blank">Sigueme en<br>LinkedIn</a>
                 </p>
             </li>
             <li>
-                <img src="imagenes/wsp.png" width="32" height="32">
-                <p><a href="https://wa.me/51951369456?text=Hola,%20quisiera%20información%20sobre%20tus%20servicios%20de%20desarrollo" target="_blank" class="as">Subscribe on<br>whatsApp</a></p>
-            </li>
-            <li>
-                <img src="imagenes/git.png" width="32" height="32">
+                <img src="imagenes/git.png" width="32" height="32" alt="GitHub">
                 <p><a href="https://github.com/rena120397?tab=repositories"
                         target="_blank" class="as">Mira mis trabajos en<br>Github</a></p>
             </li>
