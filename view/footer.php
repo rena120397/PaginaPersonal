@@ -1,6 +1,6 @@
   <footer>
         <div class="container">
-            <p>Copyright® Ronald Renato Chevarria Camargo Developer</p>
+            <p><a href="principal.php"> Copyright® Ronald Renato Chevarria Camargo Developer </a></p>
         </div>
     </footer>
     

@@ -6,7 +6,7 @@
         <header>
             <nav id="menu" class="navbar navbar-expand-md  navbar-dark fixed-top f20 ">
                 <!-- Brand -->
-                <a class="navbar-brand font-weight-bold" href="#">Ronald Renato</a>
+                <a class="navbar-brand font-weight-bold" href="#"><img src="imagenes/icono.png" alt="Ronald Renato"></a>
         
                 <!-- Toggler/collapsibe Button -->
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -94,7 +94,7 @@
                 <div class="col-sm-6 col-md-6 col-lg-3 col-6">
                     <a href="#" target="blank"><div class="card">
                         <img src="imagenes/pag.PNG">
-                        <h4>Provelino.pe</h4>
+                        <h4>SimaHogar.com.pe</h4>
                         <br>
                         <p>Tecnologias usadas</p>
                         <p class="text-center">

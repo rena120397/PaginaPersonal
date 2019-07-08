@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/png" href=" img/skapir.png" />
+    <link rel="icon" type="image/png" href=" imagenes/icono.png" />
     <title>Renato Chevarria | Desarrollador de paginas web</title>
     <link rel="canonical" href="https://renatodev.000webhostapp.com/" />
     <link rel="stylesheet" href="estilos/normalize.css">
